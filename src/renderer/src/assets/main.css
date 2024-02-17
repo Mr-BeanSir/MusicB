@@ -1,0 +1,22 @@
+@import './base.css';
+
+body {
+  /*-webkit-app-region: drag;*/
+  /*overflow: hidden;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+* {
+  -webkit-user-drag: none;
+  user-select: none;
+}
